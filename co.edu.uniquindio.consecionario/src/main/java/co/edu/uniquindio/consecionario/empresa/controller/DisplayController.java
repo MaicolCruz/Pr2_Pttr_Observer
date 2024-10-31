@@ -14,11 +14,12 @@ public class DisplayController implements Observer {
     private ListView<String> inventoryList;
 
     private ObservableList<String> inventoryObservable = FXCollections.observableArrayList();
-
+    
     public void setDealer(Dealer dealer) {
         this.dealer = dealer;
         this.dealer.addObserver(this);
         update();
+
     }
 
     @Override
