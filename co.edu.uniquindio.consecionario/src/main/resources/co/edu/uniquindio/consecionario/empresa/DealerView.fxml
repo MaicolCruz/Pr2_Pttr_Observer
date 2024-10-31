@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="co.edu.uniquindio.consecionario.empresa.controller.ConsecionarioController" spacing="10">
+   <Label text="Concesionario" style="-fx-font-size: 18px;" />
+   <TextField fx:id="vehicleField" promptText="Nombre del vehículo" />
+   <Button text="Agregar Vehículo" onAction="#handleAddVehicle" />
+   <Button text="Vender Vehículo" onAction="#handleSellVehicle" />
+</VBox>
