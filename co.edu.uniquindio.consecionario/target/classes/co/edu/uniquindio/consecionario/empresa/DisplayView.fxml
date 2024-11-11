@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="co.edu.uniquindio.consecionario.empresa.controller.DisplayController" spacing="10">
-    <Label text="Inventario de Vehículos" style="-fx-font-size: 18px;" />
-    <ListView fx:id="inventoryList" />
+<VBox spacing="10" style="-fx-background-color: #A2F5E7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.consecionario.empresa.controller.DisplayController">
+   <children>
+       <Label style="-fx-font-size: 18px;" text="Inventario de Vehículos">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="20.0" />
+         </font>
+      </Label>
+       <ListView fx:id="inventoryList" style="-fx-background-color: #35F293;" />
+   </children>
 </VBox>

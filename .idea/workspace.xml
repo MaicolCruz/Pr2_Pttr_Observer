@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdd77219-d0b6-4d07-b05e-2deb06af552a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/controller/DisplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/controller/DisplayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/resources/co/edu/uniquindio/consecionario/empresa/DealerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/resources/co/edu/uniquindio/consecionario/empresa/DealerView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/resources/co/edu/uniquindio/consecionario/empresa/DisplayView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/resources/co/edu/uniquindio/consecionario/empresa/DisplayView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/target/classes/co/edu/uniquindio/consecionario/empresa/DealerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/target/classes/co/edu/uniquindio/consecionario/empresa/DealerView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/target/classes/co/edu/uniquindio/consecionario/empresa/DisplayView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/target/classes/co/edu/uniquindio/consecionario/empresa/DisplayView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AppConsecionario.executor": "Run",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AppConsecionario.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="co.edu.uniquindio.consecionario.empresa" />
@@ -53,8 +60,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -67,7 +74,9 @@
       <option name="presentableId" value="Default" />
       <updated>1730389921175</updated>
       <workItem from="1730389922344" duration="2029000" />
-      <workItem from="1730392520852" duration="1637000" />
+      <workItem from="1730392520852" duration="2791000" />
+      <workItem from="1731354786233" duration="937000" />
+      <workItem from="1731355741465" duration="129000" />
     </task>
     <servers />
   </component>
