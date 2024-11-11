@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.scene.control.TextField;
 
 public class DisplayController implements Observer {
     private Dealer dealer;
@@ -13,19 +14,24 @@ public class DisplayController implements Observer {
     @FXML
     private ListView<String> inventoryList;
 
+    @FXML
+    private TextField vehicleField;
+
     private ObservableList<String> inventoryObservable = FXCollections.observableArrayList();
 
     public void setDealer(Dealer dealer) {
         this.dealer = dealer;
-        this.dealer.addObserver(this);
-        update();
-
+        if (this.dealer != null) {
+            this.dealer.addObserver(this);
+            update();
+        }
     }
-
     @Override
     public void update() {
-        inventoryObservable.setAll(dealer.getInventory());
-        inventoryList.setItems(inventoryObservable);
+        if (dealer != null) {
+            inventoryObservable.clear();
+            inventoryObservable.addAll(dealer.getInventory());
+            inventoryList.setItems(inventoryObservable);
+        }
     }
 }
-

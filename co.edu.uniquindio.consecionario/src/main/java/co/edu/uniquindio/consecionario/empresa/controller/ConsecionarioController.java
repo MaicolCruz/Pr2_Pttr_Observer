@@ -20,6 +20,9 @@ public class ConsecionarioController {
         if (!vehicle.isEmpty()) {
             dealer.addVehicle(vehicle);
             vehicleField.clear();
+            System.out.println("Vehículo añadido: " + vehicle);
+        } else {
+            System.out.println("El campo de vehículo está vacío.");
         }
     }
 
@@ -27,8 +30,15 @@ public class ConsecionarioController {
     private void handleSellVehicle() {
         String vehicle = vehicleField.getText();
         if (!vehicle.isEmpty()) {
-            dealer.sellVehicle(vehicle);
+            boolean sold = dealer.sellVehicle(vehicle);
             vehicleField.clear();
+            if (sold) {
+                System.out.println("Vehículo vendido: " + vehicle);
+            } else {
+                System.out.println("El vehículo no se encontró en el inventario: " + vehicle);
+            }
+        } else {
+            System.out.println("El campo de vehículo está vacío.");
         }
     }
 }
