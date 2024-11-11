@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+
 public class AppConsecionario extends Application {
     private Dealer dealer = new Dealer();
 
@@ -35,6 +36,7 @@ public class AppConsecionario extends Application {
         displayStage.setResizable(false);
         displayStage.show();
     }
+
 
     public static void main(String[] args) {
         launch(args);

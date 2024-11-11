@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdd77219-d0b6-4d07-b05e-2deb06af552a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/controller/DisplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/controller/DisplayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/AppConsecionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/AppConsecionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/Model/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/Model/Dealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/Service/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/Service/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/viewController/ConsecionarioViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/viewController/ConsecionarioViewController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -53,8 +59,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -68,10 +74,22 @@
       <updated>1730389921175</updated>
       <workItem from="1730389922344" duration="2029000" />
       <workItem from="1730392520852" duration="1637000" />
+      <workItem from="1731358391168" duration="244000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/co.edu.uniquindio.consecionario/src/main/java/co/edu/uniquindio/consecionario/empresa/AppConsecionario.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

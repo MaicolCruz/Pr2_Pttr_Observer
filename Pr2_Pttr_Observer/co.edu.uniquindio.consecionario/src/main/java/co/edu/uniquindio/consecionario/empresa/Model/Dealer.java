@@ -61,6 +61,11 @@ public class Dealer {
         inventory.add("Ford Mustang");
         inventory.add("Nissan Altima");
         inventory.add("BMW X5");
+        inventory.add("Toyota Corolla 2.0");
+        inventory.add("Honda Civic 253");
+        inventory.add("Ford Mustang eur");
+        inventory.add("Nissan Altima usa");
+        inventory.add("BMW X5 clone");
         notifyObservers();
     }
 
